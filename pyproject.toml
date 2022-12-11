@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tgbot-cryptoconvert"
+version = "0.1.0"
+description = ""
+authors = ["ElenaS <lenin_85.85@mail.ru>"]
+readme = "README.md"
+packages = [{include = "tgbot_cryptoconvert"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytelegrambotapi = "^4.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
